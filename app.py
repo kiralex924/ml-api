@@ -30,5 +30,3 @@ def predict(data: Passenger):
     df = df[columns]
     pred = model.predict(df)[0]
     return {"prediction": int(pred)}
-
-demo.launch()
